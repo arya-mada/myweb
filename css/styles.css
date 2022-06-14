@@ -1,6 +1,4 @@
-/*
-Halo kak. kakak kenapa inspect? saya masih pemula css kak.
-*/
+
 *{
 	padding: 0;
 	margin: 0;
@@ -72,16 +70,6 @@ header ul li a:hover {
 }
 
 
-
-.banner{
-	height: 60vh;             
-	background-image: url(../image/banner.jpg);
-	background-size: cover;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 
 .banner:after{

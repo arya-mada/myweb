@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #000000e0;
+	color: #fff;
+	height: 100vh;
+	line-height: 1.6;
+  }
+header h1{
+	color: aqua;
+    float: left;
+	padding:15px 0;
+	
+}
+
+header ul{
+
+	float: right;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+
+
+
+header ul li a{
+	padding:25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	color: skyblue;
+	border-bottom: 3px solid skyblue;
+}

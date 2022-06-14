@@ -1,0 +1,127 @@
+/*
+Halo kak. kakak kenapa inspect? saya masih pemula css kak.
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #000000e0;
+	color: #fff;
+	height: 100vh;
+	line-height: 1.6;
+  }
+
+
+.container{
+	width:80%;
+	margin:0 auto;
+
+}
+
+.container::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+header h1{
+	color: aqua;
+    float: left;
+	padding:15px 0;
+	
+}
+
+header ul{
+
+	float: right;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+
+
+
+header ul li a{
+	padding:25px 20px;
+	display: inline-block;
+
+}
+
+header ul li a:hover {
+	color: skyblue;
+	border-bottom: 3px solid skyblue;
+}
+
+
+
+.banner{
+	height: 60vh;             
+	background-image: url(../image/banner.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.banner:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+}
+
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border:3px solid #fff;
+}
+
+section {
+	padding:70px 0;
+}
+
+.persegipanjang{
+	padding:0,1px 0;
+	background-color: #00E0FF;
+}
+.persegipanjang ul li {
+	display: inline-block;
+	color: gray;	
+}
+
+.persegipanjang ul li i{
+	display: inline-block;
+	color: #fff;	
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+

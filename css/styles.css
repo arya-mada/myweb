@@ -94,19 +94,6 @@ section {
 	padding:70px 0;
 }
 
-.persegipanjang{
-	padding:0,1px 0;
-	background-color: #00E0FF;
-}
-.persegipanjang ul li {
-	display: inline-block;
-	color: gray;	
-}
-
-.persegipanjang ul li i{
-	display: inline-block;
-	color: #fff;	
-}
 
 .container{
 	width:80%;
